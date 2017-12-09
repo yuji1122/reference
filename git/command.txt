@@ -71,6 +71,6 @@
   > git reflog
 
 - request-pull
-  > git request-pull
+  > git request-pull origin/master
 
 EOF

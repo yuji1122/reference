@@ -70,4 +70,7 @@
 - reflog
   > git reflog
 
+- request-pull
+  > git request-pull
+
 EOF

@@ -1,4 +1,73 @@
 
-[ git command reference }
+[ git command reference ]
 
-* git clone git@github.com:yuji1122/reference.git
+*** config ***
+
+- config
+  > git config --global user.name "yuji1122"
+  > git config --global user.email "yuji1122.sam@gmail.com"
+  > git config --global color.ui auto
+  > git config --global core.autocrlf=true
+  > git config --list
+
+
+*** repository ***
+
+- clone repository
+  > git clone git@github.com:yuji1122/reference.git
+
+- update repository focely
+  > git fetch origin
+  > git reset --hard origin/master
+  > git reset --hard 96cb14a1aeb1862411571ea336cfb718fd0997a4
+
+- add remote repository
+  > git remote add origin git@github.com:yuji1122/reference.git
+
+- pull
+  > git pull
+  > git pull origin feature-a
+
+*** branch ***
+
+- add
+  > git add README.txt
+  > git add --all
+
+- commit
+  > git commit -m "First commit"
+
+- push remote branch
+  > git push -u origin master
+
+- status
+  > git status
+  > git status --short
+
+- log
+  > git log
+  > git log README.txt
+  > git log -p README.txt
+  > git log --graph
+  > git log --graph --pretty=short
+
+- diff
+  > git diff
+  > git diff HEAD
+
+- branch
+  > git branch
+  > git branch -a
+
+- checkout
+  > git checkout master
+  > git checkout -b feature-a
+
+- merge
+  > git checkout master
+  > git merge --no-ff feature-a
+
+- reflog
+  > git reflog
+
+EOF

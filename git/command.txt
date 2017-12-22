@@ -77,4 +77,10 @@
 - request-pull
   > git request-pull
 
+*** Sample ***
+
+- otc project
+  > git lfs clone git@gitlab.otc:otc/winnie-lfs.git weneedacodenameforthisproject -b feature/gd1.0
+  > git clone git@gitlab.otc:root/otc-development.git xxx -b feature/gd1.0
+
 EOF

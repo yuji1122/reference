@@ -20,7 +20,7 @@
 - clone repository
   > git clone git@github.com:yuji1122/reference.git
 
-- update repository focely
+- update repository forcely
   > git fetch origin
   > git reset --hard origin/master
   > git reset --hard 96cb14a1aeb1862411571ea336cfb718fd0997a4
